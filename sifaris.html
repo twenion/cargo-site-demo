@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="az" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Drops the no-js class before first paint, so the menu never flashes open. -->
+    <script>document.documentElement.classList.remove("no-js");</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Onlayn sifariş — kuryer çağırın | Xəzər Ekspres</title>
+    <meta name="description" content="Göndərən və alıcı məlumatlarını doldurun, kuryer Bakı daxilində 2 saat ərzində ünvanınıza gəlsin. Məbləği elə formada görün." />
+    <link rel="canonical" href="https://kulieff21.github.io/cargo-site-demo/sifaris.html" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Xəzər Ekspres" />
+    <meta property="og:locale" content="az_AZ" />
+    <meta property="og:title" content="Onlayn sifariş" />
+    <meta property="og:description" content="İki dəqiqəlik formu doldurun, kuryeri ünvanınıza çağırın." />
+    <meta property="og:image" content="https://kulieff21.github.io/cargo-site-demo/assets/img/og-cover.png" />
+    <meta property="og:url" content="https://kulieff21.github.io/cargo-site-demo/sifaris.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana səhifə", "item": "https://kulieff21.github.io/cargo-site-demo/" },
+          { "@type": "ListItem", "position": 2, "name": "Sifariş", "item": "https://kulieff21.github.io/cargo-site-demo/sifaris.html" }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Əsas məzmuna keç</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="logo" href="index.html">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 7h11v10H3z" /><path d="M14 10h4l3 3v4h-7z" />
+              <circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" />
+            </svg>
+          </span>
+          Xəzər Ekspres
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="visually-hidden">Menyunu aç</span>
+          <svg class="nav-toggle__open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg class="nav-toggle__close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
+        </button>
+
+        <nav class="nav" id="main-nav" aria-label="Əsas menyu">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Ana səhifə</a></li>
+            <li><a class="nav__link" href="xidmetler.html">Xidmətlər</a></li>
+            <li><a class="nav__link" href="tarifler.html">Tariflər</a></li>
+            <li><a class="nav__link" href="izleme.html">İzləmə</a></li>
+            <li><a class="nav__link" href="filiallar.html">Filiallar</a></li>
+            <li><a class="nav__link" href="haqqimizda.html">Haqqımızda</a></li>
+            <li><a class="nav__link" href="elaqe.html">Əlaqə</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn btn--primary header-cta" href="sifaris.html" aria-current="page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+          Sifariş ver
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="wrap">
+          <p class="eyebrow">Sifariş</p>
+          <h1>Onlayn sifariş verin</h1>
+          <p class="page-head__lede">Formu doldurun — kuryer Bakı daxilində 2 saat ərzində ünvanınıza gəlsin. İş saatlarında sifarişlər 15 dəqiqə içində təsdiqlənir.</p>
+        </div>
+      </section>
+
+      <section class="section--tight">
+        <div class="wrap order">
+          <form class="order__form" data-order-form novalidate>
+            <fieldset class="fieldset">
+              <legend>Göndərən</legend>
+              <div class="field-row">
+                <div class="field">
+                  <label for="sender-name">Ad, soyad <span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="sender-name" name="sender-name" type="text" autocomplete="name" required />
+                  <p class="field-error" data-error>Adınızı yazın.</p>
+                </div>
+                <div class="field">
+                  <label for="sender-phone">Telefon <span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="sender-phone" name="sender-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+994 50 123 45 67" required />
+                  <p class="field-error" data-error>Telefon nömrəsini tam yazın.</p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="sender-address">Götürülmə ünvanı <span class="req" aria-hidden="true">*</span></label>
+                <input class="input" id="sender-address" name="sender-address" type="text" autocomplete="street-address" required />
+                <p class="field-error" data-error>Kuryerin gələcəyi ünvanı yazın.</p>
+              </div>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend>Alıcı</legend>
+              <div class="field-row">
+                <div class="field">
+                  <label for="receiver-name">Ad, soyad <span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="receiver-name" name="receiver-name" type="text" required />
+                  <p class="field-error" data-error>Alıcının adını yazın.</p>
+                </div>
+                <div class="field">
+                  <label for="receiver-phone">Telefon <span class="req" aria-hidden="true">*</span></label>
+                  <input class="input" id="receiver-phone" name="receiver-phone" type="tel" inputmode="tel" placeholder="+994 55 765 43 21" required />
+                  <p class="field-error" data-error>Telefon nömrəsini tam yazın.</p>
+                </div>
+              </div>
+              <div class="field">
+                <label for="receiver-address">Çatdırılma ünvanı <span class="req" aria-hidden="true">*</span></label>
+                <input class="input" id="receiver-address" name="receiver-address" type="text" required />
+                <p class="field-error" data-error>Çatdırılma ünvanını yazın.</p>
+              </div>
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <legend>Yük</legend>
+              <div class="field-row">
+                <div class="field">
+                  <label for="order-dest">İstiqamət</label>
+                  <select class="select" id="order-dest" name="dest" data-calc-to>
+                  <option value="baku">Bakı (şəhərdaxili) — Eyni gün</option>
+                  <option value="sumqayit">Sumqayıt / Abşeron — Eyni gün / ertəsi gün</option>
+                  <option value="region-yaxin">Yaxın regionlar — 24 saat</option>
+                  <option value="region-uzaq">Uzaq regionlar — 48 saat</option>
+                  </select>
+                </div>
+                <div class="field">
+                  <label for="order-weight">Çəki (kq)</label>
+                  <input class="input" id="order-weight" name="weight" type="number" min="0.5" max="500" step="0.5" value="3" data-calc-weight />
+                </div>
+              </div>
+              <div class="field">
+                <label for="order-note">Qeyd <span class="dim">(istəyə bağlı)</span></label>
+                <textarea class="textarea" id="order-note" name="note" placeholder="Kövrək yükdür, ehtiyatlı olun."></textarea>
+              </div>
+            </fieldset>
+
+            <div class="order__summary">
+              <span class="calc__result-label">Təxmini məbləğ</span>
+              <span class="calc__result-value" data-calc-price>7,50 ₼</span>
+              <span class="calc__result-note" data-calc-note>Bakı (şəhərdaxili) · standart · 3 kq</span>
+            </div>
+
+            <button class="btn btn--primary btn--block" type="submit">Sifarişi göndər</button>
+            <p class="dim">Formu göndərməklə <a href="mexfilik.html">məxfilik siyasəti</a> ilə razılaşırsınız.</p>
+
+            <div class="form-status" data-form-status role="status" aria-live="polite"></div>
+          </form>
+
+          <aside class="order__aside">
+            <div class="card">
+              <h2>Kuryer nə vaxt gəlir?</h2>
+              <ul class="tick-list" style="margin-top: var(--s-4)">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7" /></svg>Bakı daxilində 2 saat ərzində</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7" /></svg>Sumqayıt və Abşeronda eyni gün</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 13 4 4L19 7" /></svg>Regionlarda ertəsi səhər</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h2>Zəng etmək daha rahatdır?</h2>
+              <p class="muted">İş saatlarında birbaşa operatorla danışın.</p>
+              <p style="margin-top: var(--s-4)">
+                <a class="btn btn--ghost btn--block" href="tel:+994125550123">+994 12 555 01 23</a>
+              </p>
+              <p style="margin-top: var(--s-3)">
+                <a class="btn btn--ghost btn--block" href="https://wa.me/994125550123" rel="noopener nofollow" target="_blank">WhatsApp ilə yazın</a>
+              </p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a class="logo" href="index.html">
+              <span class="logo__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 7h11v10H3z" /><path d="M14 10h4l3 3v4h-7z" />
+                  <circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" />
+                </svg>
+              </span>
+              Xəzər Ekspres
+            </a>
+            <p class="muted" style="margin-top: var(--s-4)">
+              2015-ci ildən Bakı və regionlar üzrə kuryer və yük çatdırılması.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Xidmətlər</h4>
+            <ul>
+              <li><a href="xidmetler.html">Şəhərdaxili kuryer</a></li>
+              <li><a href="xidmetler.html">Regionlara çatdırılma</a></li>
+              <li><a href="xidmetler.html">Yük daşıma</a></li>
+              <li><a href="xidmetler.html">Anbar və paylama</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Sayt</h4>
+            <ul>
+              <li><a href="tarifler.html">Tariflər</a></li>
+              <li><a href="izleme.html">İzləmə</a></li>
+              <li><a href="filiallar.html">Filiallar</a></li>
+              <li><a href="haqqimizda.html">Haqqımızda</a></li>
+              <li><a href="elaqe.html">Əlaqə</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Əlaqə</h4>
+            <ul>
+              <li><a href="tel:+994125550123">+994 12 555 01 23</a></li>
+              <li><a href="mailto:info@xezerekspres.az">info@xezerekspres.az</a></li>
+              <li class="muted">Nizami küçəsi 118, Bakı</li>
+              <li class="muted">B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00</li>
+            </ul>
+            <ul class="social" style="margin-top: var(--s-4)">
+              <li>
+                <a href="https://www.facebook.com/" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">Facebook səhifəmiz</span>
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3c-2 0-3.5 1.6-3.5 3.5V12H8v3h2.5v7h3v-7H16l.5-3h-3V9.5c0-.3.2-.5.5-.5z" /></svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">Instagram səhifəmiz</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/994125550123" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">WhatsApp ilə yazın</span>
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.9.9-.9 2.1-.1 3.4a9.4 9.4 0 0 0 4.6 4.1c1.5.6 2.5.5 3.2-.1.3-.3.6-.8.7-1.2.1-.3 0-.4-.2-.5z" /></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="demo-notice" style="margin-top: var(--s-7)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" /><path d="M12 8v5M12 16.5v.5" />
+          </svg>
+          <span>
+            <strong>Bu sayt nümunə işdir.</strong> «Xəzər Ekspres» mövcud şirkət deyil —
+            sayt kargo və kuryer şirkətləri üçün hazırlanmış demo layihədir. Əlaqə
+            məlumatları və izləmə nəticələri uydurmadır.
+          </span>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Xəzər Ekspres — nümunə layihə</p>
+          <p><a href="mexfilik.html">Məxfilik siyasəti</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+  </body>
+</html>

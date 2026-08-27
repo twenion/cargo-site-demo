@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="az" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Drops the no-js class before first paint, so the menu never flashes open. -->
+    <script>document.documentElement.classList.remove("no-js");</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tariflər — çatdırılma qiymətləri və müddətləri | Xəzər Ekspres</title>
+    <meta name="description" content="Bakı və regionlara çatdırılma qiymətləri: ilk 1 kq və sonrakı kiloqramlar üzrə tarif, çatdırılma müddətləri, təcili göndəriş və korporativ şərtlər." />
+    <link rel="canonical" href="https://kulieff21.github.io/cargo-site-demo/tarifler.html" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Xəzər Ekspres" />
+    <meta property="og:locale" content="az_AZ" />
+    <meta property="og:title" content="Tariflər — çatdırılma qiymətləri" />
+    <meta property="og:description" content="İstiqamətə və çəkiyə görə qiymət cədvəli, üstəlik onlayn hesablayıcı." />
+    <meta property="og:image" content="https://kulieff21.github.io/cargo-site-demo/assets/img/og-cover.png" />
+    <meta property="og:url" content="https://kulieff21.github.io/cargo-site-demo/tarifler.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana səhifə", "item": "https://kulieff21.github.io/cargo-site-demo/" },
+          { "@type": "ListItem", "position": 2, "name": "Tariflər", "item": "https://kulieff21.github.io/cargo-site-demo/tarifler.html" }
+        ]
+      }
+    </script>
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Əsas məzmuna keç</a>
+
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="logo" href="index.html">
+          <span class="logo__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 7h11v10H3z" /><path d="M14 10h4l3 3v4h-7z" />
+              <circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" />
+            </svg>
+          </span>
+          Xəzər Ekspres
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <span class="visually-hidden">Menyunu aç</span>
+          <svg class="nav-toggle__open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+          <svg class="nav-toggle__close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
+        </button>
+
+        <nav class="nav" id="main-nav" aria-label="Əsas menyu">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="index.html">Ana səhifə</a></li>
+            <li><a class="nav__link" href="xidmetler.html">Xidmətlər</a></li>
+            <li><a class="nav__link" href="tarifler.html" aria-current="page">Tariflər</a></li>
+            <li><a class="nav__link" href="izleme.html">İzləmə</a></li>
+            <li><a class="nav__link" href="filiallar.html">Filiallar</a></li>
+            <li><a class="nav__link" href="haqqimizda.html">Haqqımızda</a></li>
+            <li><a class="nav__link" href="elaqe.html">Əlaqə</a></li>
+          </ul>
+        </nav>
+
+        <a class="btn btn--primary header-cta" href="sifaris.html">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+          Sifariş ver
+        </a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="page-head">
+        <div class="wrap">
+          <p class="eyebrow">Qiymətlər</p>
+          <h1>Tariflər və çatdırılma müddətləri</h1>
+          <p class="page-head__lede">Qiymət çəkiyə və istiqamətə görə hesablanır. Gizli əlavə haqq yoxdur — yükləmə və boşaltma məbləğə daxildir.</p>
+        </div>
+      </section>
+
+      <section class="section--tight">
+        <div class="wrap">
+          <div class="table-wrap">
+            <table class="table">
+              <caption class="visually-hidden">İstiqamətlərə görə çatdırılma qiymətləri və müddətləri</caption>
+              <thead>
+                <tr>
+                  <th scope="col">İstiqamət</th>
+                  <th scope="col">İlk 1 kq</th>
+                  <th scope="col">Sonrakı hər kq</th>
+                  <th scope="col">Müddət</th>
+                </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <th scope="row">
+                  Bakı (şəhərdaxili)
+                  <span class="table__sub">Bakının bütün rayonları</span>
+                </th>
+                <td data-label="İlk 1 kq">5,50 ₼</td>
+                <td data-label="Sonrakı hər kq">1,00 ₼</td>
+                <td data-label="Müddət">Eyni gün<span class="table__sub">Saat 14:00-a qədər verilən sifarişlər</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Sumqayıt / Abşeron
+                  <span class="table__sub">Sumqayıt, Xırdalan, Abşeron rayonu</span>
+                </th>
+                <td data-label="İlk 1 kq">7,00 ₼</td>
+                <td data-label="Sonrakı hər kq">1,20 ₼</td>
+                <td data-label="Müddət">Eyni gün / ertəsi gün<span class="table__sub">Axşam 17:00-dək qəbul</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Yaxın regionlar
+                  <span class="table__sub">Gəncə, Şəki, Quba, Şirvan, Mingəçevir</span>
+                </th>
+                <td data-label="İlk 1 kq">9,50 ₼</td>
+                <td data-label="Sonrakı hər kq">1,60 ₼</td>
+                <td data-label="Müddət">24 saat<span class="table__sub">Gündəlik reys</span></td>
+              </tr>
+              <tr>
+                <th scope="row">
+                  Uzaq regionlar
+                  <span class="table__sub">Lənkəran, Zaqatala, Naxçıvan, Astara</span>
+                </th>
+                <td data-label="İlk 1 kq">13,00 ₼</td>
+                <td data-label="Sonrakı hər kq">2,10 ₼</td>
+                <td data-label="Müddət">48 saat<span class="table__sub">Həftədə 4 reys</span></td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="note-grid">
+            <div class="note">
+              <h3>Təcili çatdırılma</h3>
+              <p>Standart tarifin üzərinə <strong>+50%</strong>. Bakı daxilində 3 saat ərzində.</p>
+            </div>
+            <div class="note">
+              <h3>Çəki həddi</h3>
+              <p>Bir göndərişdə <strong>500 kq</strong>-a qədər. Daha ağır yüklər üçün bizimlə əlaqə saxlayın.</p>
+            </div>
+            <div class="note">
+              <h3>Korporativ tarif</h3>
+              <p>Ayda 50-dən çox göndəriş üçün fərdi qiymət və aylıq hesab-faktura.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--alt" id="hesablayici">
+        <div class="wrap calc">
+          <div class="calc__copy">
+            <div class="section-head">
+              <h2>Öz yükünüzü hesablayın</h2>
+              <p>Cədvəldəki eyni qiymətlərlə işləyir — nəticə birbaşa yuxarıdakı tariflərdən çıxır.</p>
+            </div>
+            <ul class="tick-list">
+              <li><strong>Bakı (şəhərdaxili)</strong>, 5 kq — 9,50 ₼</li>
+              <li><strong>Sumqayıt / Abşeron</strong>, 5 kq — 11,80 ₼</li>
+              <li><strong>Yaxın regionlar</strong>, 5 kq — 15,90 ₼</li>
+              <li><strong>Uzaq regionlar</strong>, 5 kq — 21,40 ₼</li>
+            </ul>
+          </div>
+
+          <form class="calc__panel" data-calc-form>
+            <h3 class="calc__title">Çatdırılma hesablayıcısı</h3>
+
+            <div class="field">
+              <label for="calc-from">Haradan</label>
+              <select class="select" id="calc-from" name="from" data-calc-from>
+                <option value="baku">Bakı</option>
+                <option value="sumqayit">Sumqayıt</option>
+                <option value="gence">Gəncə</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="calc-to">Haraya</label>
+              <select class="select" id="calc-to" name="to" data-calc-to>
+                <option value="baku">Bakı (şəhərdaxili)</option>
+                <option value="sumqayit">Sumqayıt / Abşeron</option>
+                <option value="region-yaxin">Yaxın regionlar</option>
+                <option value="region-uzaq">Uzaq regionlar</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="calc-weight">Çəki (kq)</label>
+              <input class="input" id="calc-weight" name="weight" type="number" min="0.5" max="500" step="0.5" value="3" data-calc-weight />
+            </div>
+
+            <div class="field">
+              <label for="calc-speed">Sürət</label>
+              <select class="select" id="calc-speed" name="speed" data-calc-speed>
+                <option value="standart">Standart</option>
+                <option value="tecili">Təcili (+50%)</option>
+              </select>
+            </div>
+
+            <output class="calc__result" data-calc-output>
+              <span class="calc__result-label">Təxmini məbləğ</span>
+              <span class="calc__result-value" data-calc-price>7,50 ₼</span>
+              <span class="calc__result-note" data-calc-note>Bakı (şəhərdaxili) · standart · 3 kq</span>
+            </output>
+
+            <noscript>
+              <p class="dim">Hesablayıcı üçün JavaScript lazımdır — qiymətləri yuxarıdakı cədvəldən götürə bilərsiniz.</p>
+            </noscript>
+
+            <a class="btn btn--primary btn--block" href="sifaris.html">Bu şərtlərlə sifariş ver</a>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <a class="logo" href="index.html">
+              <span class="logo__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 7h11v10H3z" /><path d="M14 10h4l3 3v4h-7z" />
+                  <circle cx="7" cy="18" r="2" /><circle cx="17" cy="18" r="2" />
+                </svg>
+              </span>
+              Xəzər Ekspres
+            </a>
+            <p class="muted" style="margin-top: var(--s-4)">
+              2015-ci ildən Bakı və regionlar üzrə kuryer və yük çatdırılması.
+            </p>
+          </div>
+
+          <div class="footer-col">
+            <h4>Xidmətlər</h4>
+            <ul>
+              <li><a href="xidmetler.html">Şəhərdaxili kuryer</a></li>
+              <li><a href="xidmetler.html">Regionlara çatdırılma</a></li>
+              <li><a href="xidmetler.html">Yük daşıma</a></li>
+              <li><a href="xidmetler.html">Anbar və paylama</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Sayt</h4>
+            <ul>
+              <li><a href="tarifler.html">Tariflər</a></li>
+              <li><a href="izleme.html">İzləmə</a></li>
+              <li><a href="filiallar.html">Filiallar</a></li>
+              <li><a href="haqqimizda.html">Haqqımızda</a></li>
+              <li><a href="elaqe.html">Əlaqə</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Əlaqə</h4>
+            <ul>
+              <li><a href="tel:+994125550123">+994 12 555 01 23</a></li>
+              <li><a href="mailto:info@xezerekspres.az">info@xezerekspres.az</a></li>
+              <li class="muted">Nizami küçəsi 118, Bakı</li>
+              <li class="muted">B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00</li>
+            </ul>
+            <ul class="social" style="margin-top: var(--s-4)">
+              <li>
+                <a href="https://www.facebook.com/" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">Facebook səhifəmiz</span>
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 9h3V6h-3c-2 0-3.5 1.6-3.5 3.5V12H8v3h2.5v7h3v-7H16l.5-3h-3V9.5c0-.3.2-.5.5-.5z" /></svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">Instagram səhifəmiz</span>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" /></svg>
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/994125550123" rel="noopener nofollow" target="_blank">
+                  <span class="visually-hidden">WhatsApp ilə yazın</span>
+                  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18a8 8 0 0 1-4.1-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 20zm4.4-5.8c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.5.1l-.7.9c-.1.2-.3.2-.5.1a6.5 6.5 0 0 1-3.2-2.8c-.1-.2 0-.4.1-.5l.4-.5c.1-.2.1-.3 0-.5l-.7-1.7c-.2-.4-.4-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.9.9-.9 2.1-.1 3.4a9.4 9.4 0 0 0 4.6 4.1c1.5.6 2.5.5 3.2-.1.3-.3.6-.8.7-1.2.1-.3 0-.4-.2-.5z" /></svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="demo-notice" style="margin-top: var(--s-7)">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="9" /><path d="M12 8v5M12 16.5v.5" />
+          </svg>
+          <span>
+            <strong>Bu sayt nümunə işdir.</strong> «Xəzər Ekspres» mövcud şirkət deyil —
+            sayt kargo və kuryer şirkətləri üçün hazırlanmış demo layihədir. Əlaqə
+            məlumatları və izləmə nəticələri uydurmadır.
+          </span>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Xəzər Ekspres — nümunə layihə</p>
+          <p><a href="mexfilik.html">Məxfilik siyasəti</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/site.js" defer></script>
+  </body>
+</html>

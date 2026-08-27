@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kulieff21.github.io/cargo-site-demo/sitemap.xml

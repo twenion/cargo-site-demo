@@ -1017,3 +1017,32 @@ textarea { font: inherit; color: inherit; }
 /* --- 404 ----------------------------------------------------------------- */
 .notfound { padding-block: var(--s-9); }
 .notfound h1 { max-width: 18ch; margin-inline: auto; }
+
+/* --- CTA photograph ------------------------------------------------------ */
+/* The only stock photo on the site. Most logistics stock shots carry the
+   giveaways of somewhere else -- Korean plates, IKEA signage -- which on an
+   Azerbaijani courier's site reads as borrowed. This one is night, motion-blurred
+   and free of any text or legible plate, so it stays about movement.
+   WebP is 47 KB against 116 KB for the JPEG that follows it as a fallback. */
+.cta--photo {
+  position: relative;
+  isolation: isolate;
+  border-block: 1px solid var(--border);
+  background-color: var(--bg-alt);
+  background-image: url("../img/van-night.jpg");
+  background-image: image-set(url("../img/van-night.webp") type("image/webp"), url("../img/van-night.jpg") type("image/jpeg"));
+  background-size: cover;
+  background-position: 60% center;
+}
+/* Two layers: a flat wash to hold contrast everywhere, and a left-weighted
+   gradient so the copy sits on the darkest part of the frame. */
+.cta--photo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(95deg, rgba(10, 16, 20, 0.96) 30%, rgba(10, 16, 20, 0.72) 62%, rgba(10, 16, 20, 0.55) 100%),
+    rgba(10, 16, 20, 0.35);
+}
+.cta--photo .cta__inner { padding-block: var(--s-6); }

@@ -177,7 +177,7 @@
       "<p><strong>" + escapeHtml(code) + "</strong> kodu ilə göndəriş qeydə alınmayıb. " +
       "Kodu bir daha yoxlayın — sifariş yeni verilibsə, sistemə düşməsi 15 dəqiqə çəkə bilər.</p>" +
       '<p style="margin-top: var(--s-4)">Kömək lazımdırsa: ' +
-      '<a href="tel:+994125550123">+994 12 555 01 23</a></p>' +
+      '<a href="tel:+994000000000">+994 00 000 00 00</a></p>' +
       "</div>"
     );
   }

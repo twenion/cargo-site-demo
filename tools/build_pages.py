@@ -109,18 +109,18 @@ STATUS_LABELS = {
 }
 
 BRANCHES = [
-    {"city": "Bakı", "name": "Mərkəzi ofis", "address": "Nizami küçəsi 118", "phone": "+994 12 555 01 23", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
-    {"city": "Bakı", "name": "Xətai filialı", "address": "Babək prospekti 24", "phone": "+994 12 555 01 24", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
-    {"city": "Bakı", "name": "Nərimanov filialı", "address": "Atatürk prospekti 9", "phone": "+994 12 555 01 25", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
-    {"city": "Bakı", "name": "Binəqədi qəbul məntəqəsi", "address": "Ə. Naxçıvani küçəsi 41", "phone": "+994 12 555 01 26", "hours": "B.e-Cümə 09:00-18:00"},
-    {"city": "Bakı", "name": "Yasamal qəbul məntəqəsi", "address": "Şərifzadə küçəsi 203", "phone": "+994 12 555 01 27", "hours": "B.e-Cümə 09:00-18:00"},
-    {"city": "Sumqayıt", "name": "Sumqayıt filialı", "address": "Sülh küçəsi 3", "phone": "+994 18 555 02 10", "hours": "B.e-Cümə 09:00-18:00, Şənbə 10:00-15:00"},
-    {"city": "Xırdalan", "name": "Xırdalan qəbul məntəqəsi", "address": "Həsən Əliyev küçəsi 12", "phone": "+994 12 555 02 11", "hours": "B.e-Cümə 09:00-18:00"},
-    {"city": "Gəncə", "name": "Gəncə filialı", "address": "Atatürk prospekti 42", "phone": "+994 22 555 03 30", "hours": "B.e-Cümə 09:00-18:00, Şənbə 10:00-15:00"},
-    {"city": "Şəki", "name": "Şəki qəbul məntəqəsi", "address": "M.Ə.Rəsulzadə küçəsi 8", "phone": "+994 24 555 03 31", "hours": "B.e-Cümə 09:00-17:00"},
-    {"city": "Quba", "name": "Quba qəbul məntəqəsi", "address": "Heydər Əliyev prospekti 61", "phone": "+994 23 555 03 32", "hours": "B.e-Cümə 09:00-17:00"},
-    {"city": "Lənkəran", "name": "Lənkəran filialı", "address": "Həzi Aslanov küçəsi 55", "phone": "+994 25 555 04 40", "hours": "B.e-Cümə 09:00-18:00"},
-    {"city": "Mingəçevir", "name": "Mingəçevir qəbul məntəqəsi", "address": "Heydər Əliyev prospekti 17", "phone": "+994 21 555 04 41", "hours": "B.e-Cümə 09:00-17:00"},
+    {"city": "Bakı", "name": "Mərkəzi ofis", "address": "Nizami küçəsi 118", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
+    {"city": "Bakı", "name": "Xətai filialı", "address": "Babək prospekti 24", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
+    {"city": "Bakı", "name": "Nərimanov filialı", "address": "Atatürk prospekti 9", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00"},
+    {"city": "Bakı", "name": "Binəqədi qəbul məntəqəsi", "address": "Ə. Naxçıvani küçəsi 41", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00"},
+    {"city": "Bakı", "name": "Yasamal qəbul məntəqəsi", "address": "Şərifzadə küçəsi 203", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00"},
+    {"city": "Sumqayıt", "name": "Sumqayıt filialı", "address": "Sülh küçəsi 3", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00, Şənbə 10:00-15:00"},
+    {"city": "Xırdalan", "name": "Xırdalan qəbul məntəqəsi", "address": "Həsən Əliyev küçəsi 12", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00"},
+    {"city": "Gəncə", "name": "Gəncə filialı", "address": "Atatürk prospekti 42", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00, Şənbə 10:00-15:00"},
+    {"city": "Şəki", "name": "Şəki qəbul məntəqəsi", "address": "M.Ə.Rəsulzadə küçəsi 8", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-17:00"},
+    {"city": "Quba", "name": "Quba qəbul məntəqəsi", "address": "Heydər Əliyev prospekti 61", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-17:00"},
+    {"city": "Lənkəran", "name": "Lənkəran filialı", "address": "Həzi Aslanov küçəsi 55", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-18:00"},
+    {"city": "Mingəçevir", "name": "Mingəçevir qəbul məntəqəsi", "address": "Heydər Əliyev prospekti 17", "phone": "+994 00 000 00 00", "hours": "B.e-Cümə 09:00-17:00"},
 ]
 
 
@@ -360,7 +360,7 @@ def build_tracking() -> None:
                 <circle cx="12" cy="12" r="9" /><path d="M12 8v5M12 16.5v.5" />
               </svg>
               <span>İzləmə nəticəsini göstərmək üçün JavaScript lazımdır. Kodunuzu
-              <a href="tel:+994125550123">+994 12 555 01 23</a> nömrəsinə deyin — operator sizə məlumat versin.</span>
+              <a href="tel:+994000000000">+994 00 000 00 00</a> nömrəsinə deyin — operator sizə məlumat versin.</span>
             </div>
           </noscript>
 
@@ -408,7 +408,7 @@ def build_order() -> None:
                 </div>
                 <div class="field">
                   <label for="sender-phone">Telefon <span class="req" aria-hidden="true">*</span></label>
-                  <input class="input" id="sender-phone" name="sender-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+994 50 123 45 67" required />
+                  <input class="input" id="sender-phone" name="sender-phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+994 00 000 00 00" required />
                   <p class="field-error" data-error>Telefon nömrəsini tam yazın.</p>
                 </div>
               </div>
@@ -429,7 +429,7 @@ def build_order() -> None:
                 </div>
                 <div class="field">
                   <label for="receiver-phone">Telefon <span class="req" aria-hidden="true">*</span></label>
-                  <input class="input" id="receiver-phone" name="receiver-phone" type="tel" inputmode="tel" placeholder="+994 55 765 43 21" required />
+                  <input class="input" id="receiver-phone" name="receiver-phone" type="tel" inputmode="tel" placeholder="+994 00 000 00 00" required />
                   <p class="field-error" data-error>Telefon nömrəsini tam yazın.</p>
                 </div>
               </div>
@@ -486,10 +486,10 @@ def build_order() -> None:
               <h2>Zəng etmək daha rahatdır?</h2>
               <p class="muted">İş saatlarında birbaşa operatorla danışın.</p>
               <p style="margin-top: var(--s-4)">
-                <a class="btn btn--ghost btn--block" href="tel:+994125550123">+994 12 555 01 23</a>
+                <a class="btn btn--ghost btn--block" href="tel:+994000000000">+994 00 000 00 00</a>
               </p>
               <p style="margin-top: var(--s-3)">
-                <a class="btn btn--ghost btn--block" href="https://wa.me/994125550123" rel="noopener nofollow" target="_blank">WhatsApp ilə yazın</a>
+                <a class="btn btn--ghost btn--block" href="https://wa.me/994000000000" rel="noopener nofollow" target="_blank">WhatsApp ilə yazın</a>
               </p>
             </div>
           </aside>
@@ -765,7 +765,7 @@ def build_contact() -> None:
               </span>
               <h2>Telefon</h2>
               <p class="muted">B.e-Cümə 09:00-19:00, Şənbə 10:00-16:00</p>
-              <p style="margin-top: var(--s-3)"><a class="contact__big" href="tel:+994125550123">+994 12 555 01 23</a></p>
+              <p style="margin-top: var(--s-3)"><a class="contact__big" href="tel:+994000000000">+994 00 000 00 00</a></p>
             </div>
 
             <div class="card">
@@ -834,7 +834,7 @@ def build_contact() -> None:
     render.write(
         "elaqe.html",
         "Əlaqə — telefon, e-poçt və ünvan | Xəzər Ekspres",
-        "Telefon +994 12 555 01 23, e-poçt info@xezerekspres.az, mərkəzi ofis Nizami küçəsi 118, "
+        "Telefon +994 00 000 00 00, e-poçt info@xezerekspres.az, mərkəzi ofis Nizami küçəsi 118, "
         "Bakı. Mesaj formu ilə də yaza bilərsiniz.",
         "Əlaqə",
         "Telefon, e-poçt, ünvan və mesaj formu.",

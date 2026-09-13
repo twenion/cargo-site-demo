@@ -4,7 +4,7 @@ A static site for an Azerbaijani courier company, built as a portfolio piece and
 a sales demo. **The company is fictional** — no real business's name, branding or
 content is used, and the site says so in its own footer.
 
-**Live:** https://kulieff21.github.io/cargo-site-demo/
+**Live:** https://twenion.github.io/cargo-site-demo/
 
 ## The three demos
 
@@ -17,8 +17,8 @@ static files with no framework and no CDN.
 | | | |
 | --- | --- | --- |
 | `cargo-site-demo` **← you are here** | Xəzər Ekspres — Courier | Tracking, tariffs and an order form — a dark, service-shaped site |
-| [`ecommerce-site-demo`](https://github.com/kulieff21/ecommerce-site-demo) | Zərrə — Skincare retail | 24 products, cart and checkout — a light, catalogue-shaped site · [live](https://kulieff21.github.io/ecommerce-site-demo/) |
-| [`hotel-site-demo`](https://github.com/kulieff21/hotel-site-demo) | Qırx Pəncərə — Şəki guesthouse | 365 published nightly prices and a booking form — a calendar-shaped site · [live](https://kulieff21.github.io/hotel-site-demo/) |
+| [`ecommerce-site-demo`](https://github.com/twenion/ecommerce-site-demo) | Zərrə — Skincare retail | 24 products, cart and checkout — a light, catalogue-shaped site · [live](https://twenion.github.io/ecommerce-site-demo/) |
+| [`hotel-site-demo`](https://github.com/twenion/hotel-site-demo) | Qırx Pəncərə — Şəki guesthouse | 365 published nightly prices and a booking form — a calendar-shaped site · [live](https://twenion.github.io/hotel-site-demo/) |
 
 ## Why it exists
 

@@ -19,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "index.html"
-SITE_URL = "https://kulieff21.github.io/cargo-site-demo/"
+SITE_URL = "https://twenion.github.io/cargo-site-demo/"
 
 
 def slice_between(text: str, start: str, end: str, what: str) -> str:

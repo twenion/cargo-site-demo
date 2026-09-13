@@ -6,19 +6,20 @@ content is used, and the site says so in its own footer.
 
 **Live:** https://twenion.github.io/cargo-site-demo/
 
-## The three demos
+## The demo set
 
-Three sales demos for Azerbaijani small businesses, deliberately different in
-sector, palette **and shape** — a service site, a catalogue and a booking site —
-so they read as three pieces of work rather than one template three times. Each
-is a fictional business, holds itself to the same audit checklist, and ships as
-static files with no framework and no CDN.
+Four sales demos for Azerbaijani small businesses, deliberately different in
+sector, palette **and shape** — a service site, a catalogue, a booking site and a
+quote bench — so they read as four pieces of work rather than one template four
+times. Each is a fictional business, holds itself to the same audit checklist,
+and ships as static files with no framework and no CDN.
 
 | | | |
 | --- | --- | --- |
 | `cargo-site-demo` **← you are here** | Xəzər Ekspres — Courier | Tracking, tariffs and an order form — a dark, service-shaped site |
 | [`ecommerce-site-demo`](https://github.com/twenion/ecommerce-site-demo) | Zərrə — Skincare retail | 24 products, cart and checkout — a light, catalogue-shaped site · [live](https://twenion.github.io/ecommerce-site-demo/) |
 | [`hotel-site-demo`](https://github.com/twenion/hotel-site-demo) | Qırx Pəncərə — Şəki guesthouse | 365 published nightly prices and a booking form — a calendar-shaped site · [live](https://twenion.github.io/hotel-site-demo/) |
+| [`manufacturing-site-demo`](https://github.com/twenion/manufacturing-site-demo) | Kəsim — Metal fabrication | A live quote calculator over a sheet-nesting model — a calculator-shaped site · [live](https://twenion.github.io/manufacturing-site-demo/) |
 
 ## Why it exists
 
